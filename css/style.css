@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.header {
+  width: 100vw;
+  height: 90px;
+  background-color: #e353d5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 872px;
+}
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .logo_text {
+  font-size: 49px;
+  font-weight: 900;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.header .header_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header_sign-in {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 118px;
+  height: 70px;
+  border-radius: 8px;
+  border: 5px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header .header_sign-up {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/bg.png");
+  background-position: 0 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.wrapper .login__screen {
+  width: 606px;
+  height: 570px;
+  border-radius: 25px;
+  border: 4px solid #000000;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .login__title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 96px;
+  margin-bottom: 27px;
+}
+.wrapper .login__username {
+  display: block;
+  width: 486px;
+  height: 60px;
+  border: 4px solid #e353d5;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 46px;
+}
+.wrapper .login__password {
+  display: block;
+  width: 486px;
+  height: 60px;
+  border: 4px solid #e353d5;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 26px;
+}
+.wrapper .submit__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 102px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.wrapper .submit__forgot-password {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.wrapper .submit__button {
+  width: 181px;
+  height: 49px;
+  display: block;
+  border-radius: 8px;
+  background-color: #e353d5;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/*registration screen*/
+.sign-up__screen {
+  width: 606px;
+  height: 786px;
+  border-radius: 25px;
+  border: 4px solid #000000;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sign-up__screen .sign-up__email,
+.sign-up__screen .sign-up__name,
+.sign-up__screen .sign-up__surname,
+.sign-up__screen .sign-up__username,
+.sign-up__screen .sign-up__password {
+  display: block;
+  width: 486px;
+  height: 60px;
+  border: 4px solid #e353d5;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 43px;
+}
+.sign-up__screen .sign-up__title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 57px;
+  margin-bottom: 36px;
+}
+
+/*profile screen*/
+body {
+  background-image: url("../img/bg.png");
+  background-position: 0 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.wrapper__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 21px;
+  width: 1121px;
+  margin: auto;
+}
+
+.menu {
+  width: 158px;
+  height: 146px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.menu__item {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.personal__info {
+  padding-top: 21px;
+  width: 942px;
+  background-color: #ffffff;
+  height: 927px;
+  border-radius: 0px, 0px, 30px, 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 10px;
+}
+
+.personal__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 343px;
+}
+.personal__text .personal__name {
+  display: block;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.personal__text .personal__id {
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.personal__text .personal__status {
+  border: none;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  cursor: pointer;
+  width: 470px;
+}
+.personal__text .personal__buttons {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.personal__text .personal__add-friend {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  background: #e353d5;
+  border: none;
+  text-align: center;
+  color: white;
+  width: 181px;
+  height: 49px;
+  border-radius: 8px;
+  display: block;
+}
+.personal__text .personal__send-mess {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  border: none;
+  background: #e353d5;
+  text-align: center;
+  color: white;
+  display: block;
+  width: 181px;
+  height: 49px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.info__img {
+  width: 336px;
+  height: 343px;
+  border: 1px solid black;
+  justify-self: flex-end;
+}
